@@ -20,7 +20,7 @@ public static void main(String[] args) {
 		EntityManager em = fabrica.createEntityManager();
 		
 		//Instanciar uma Musica
-		Tenis tenis = new Tenis("Air jordan 1",new GregorianCalendar(2020, Calendar.JULY, 16),"Court Purple",MarcaTenis.JORDAN,"Novo");
+		Tenis tenis = new Tenis("Air jordan 1", new GregorianCalendar(2020, Calendar.JULY, 16),"Court Purple",MarcaTenis.JORDAN,"Novo");
 		
 		//Instanciar uma MusicaDaoImpl
 		MusicaDao dao = new MusicaDaoImpl(em);

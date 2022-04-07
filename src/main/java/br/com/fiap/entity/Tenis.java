@@ -43,9 +43,8 @@ public class Tenis {
 
 	public Tenis() {}
 
-	public Tenis(Integer id, String nome, Calendar dataLancamento, String colorWay, MarcaTenis marca, String estado) {
+	public Tenis(String nome, Calendar dataLancamento, String colorWay, MarcaTenis marca, String estado) {
 		super();
-		this.id = id;
 		this.nome = nome;
 		this.dataLancamento = dataLancamento;
 		this.colorWay = colorWay;
